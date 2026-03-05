@@ -7,19 +7,23 @@ namespace CyberHack
     {
         private static void Main(string[] args)
         {
+            //Pede o sistema a hackear
             string resposta1 = Console.ReadLine();
 
+            //Pede o tipo de hack qu quer fazer
             string resposta2 = Console.ReadLine();
 
             // Define the character separator
             char separator = ' '; 
             string[] words = resposta2.Split(separator);
 
+            //Ajudas ig
             int a = 0;
             int b = 0;
             int c = 0;
             int d = 0;
 
+            //qq coisa para ter um minimo dos minimos de controlo
             if(resposta1 == "CorporateServer")
             {
                 if (words[0] == "Phishing" || words[0] == "Backdoor")
@@ -39,7 +43,7 @@ namespace CyberHack
                         }
                     }
             }
-            else if(resposta1 == "BankDatabase")
+            else if(resposta1 == "BankDatabase") //qq coisa para ter um minimo dos minimos de controlo
             {
                 if (words[0] == "ZeroDay" || words[0] == "AIOverride")
                 {
@@ -58,7 +62,7 @@ namespace CyberHack
                     }
                 }
             }
-            else if(resposta1 == "SmartCityCore")
+            else if(resposta1 == "SmartCityCore") //qq coisa para ter um minimo dos minimos de controlo
             {
                 if (words[0] == "Backdoor" || words[0] == "Phishing")
                 {
@@ -77,7 +81,7 @@ namespace CyberHack
                     }
                 }
             }
-            else if(resposta1 == "MilitaryAI")
+            else if(resposta1 == "MilitaryAI") //qq coisa para ter um minimo dos minimos de controlo
             {
                 if (words[0] == "BruteForce" || words[0] == "Phishing")
                 {
