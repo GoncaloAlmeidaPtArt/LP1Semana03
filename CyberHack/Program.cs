@@ -23,6 +23,9 @@ namespace CyberHack
             int c = 0;
             int d = 0;
 
+
+            
+
             //qq coisa para ter um minimo dos minimos de controlo
             if(resposta1 == "CorporateServer")
             {
